@@ -3607,3 +3607,20 @@ header.scrolled{
     }
 
 }
+
+.hero-image,
+.offer-image img,
+.about-image img,
+.category-card img,
+.menu-image img,
+.card,
+.stat,
+.menu-card,
+.why-card{
+    will-change: transform;
+}
+
+*{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
