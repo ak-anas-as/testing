@@ -63,7 +63,6 @@ header{
     background:rgba(10,10,10,.85);
     backdrop-filter:blur(12px);
 
-    transition:.35s ease;
 }
 
 /* Scroll Effect */
@@ -3006,6 +3005,17 @@ header.scrolled{
 
 .contact-form button{
 
+    display: block;
+    width: 100%;
+    margin: 25px 0 0;
+    padding: 16px;
+    border-radius: 50px;
+    background: #FF6B00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+
+/* 
     border:none;
 
     background:#FF6B00;
@@ -3023,7 +3033,7 @@ header.scrolled{
 
     cursor:pointer;
 
-    transition:.35s;
+    transition:.35s; */
 
 }
 
@@ -3033,7 +3043,7 @@ header.scrolled{
 
     transform:translateY(-4px);
 
-    box-shadow:0 15px 35px rgba(255,107,0,.30);
+    box-shadow:0 1px 5px rgba(255,107,0,.30);
 
 }
 
@@ -3158,9 +3168,12 @@ header.scrolled{
 
     .contact-form button{
 
+        
         width:100%;
+        margin-left: -80px;
+        /* margin:20px 0 0; */
 
-        padding:15px;
+
 
     }
 
@@ -3623,4 +3636,13 @@ header.scrolled{
 *{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+html,
+body{
+    overflow-x:hidden;
+}
+
+*{
+    max-width:100%;
 }
