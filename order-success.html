@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Order Success</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Outfit',sans-serif;
+        }
+
+        body{
+
+            background:#0B0B0B;
+
+            display:flex;
+
+            justify-content:center;
+
+            align-items:center;
+
+            min-height:100vh;
+
+            color:#fff;
+
+        }
+
+        .success-card{
+
+            width:90%;
+            max-width:500px;
+
+            background:#171717;
+
+            border-radius:20px;
+
+            padding:40px;
+
+            text-align:center;
+
+            box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+            animation:pop .5s ease;
+
+        }
+
+        @keyframes pop{
+
+            from{
+
+                transform:scale(.8);
+
+                opacity:0;
+
+            }
+
+            to{
+
+                transform:scale(1);
+
+                opacity:1;
+
+            }
+
+        }
+
+        .success-icon{
+
+            width:100px;
+
+            height:100px;
+
+            margin:auto;
+
+            border-radius:50%;
+
+            background:#FF6B00;
+
+            display:flex;
+
+            justify-content:center;
+
+            align-items:center;
+
+            font-size:45px;
+
+            color:#fff;
+
+            margin-bottom:25px;
+
+        }
+
+        h1{
+
+            margin-bottom:15px;
+
+        }
+
+        p{
+
+            color:#bbb;
+
+            line-height:1.8;
+
+            margin-bottom:30px;
+
+        }
+
+        .home-btn{
+
+            display:inline-block;
+
+            padding:15px 35px;
+
+            background:#FF6B00;
+
+            color:#fff;
+
+            text-decoration:none;
+
+            border-radius:12px;
+
+            transition:.3s;
+
+            font-weight:600;
+
+        }
+
+        .home-btn:hover{
+
+            background:#ff8c39;
+
+            transform:translateY(-3px);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="success-card">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+        <h1>Order Placed Successfully 🎉</h1>
+
+        <p>
+
+            Thank you for your order.
+
+            Your delicious food is being prepared and will arrive soon.
+
+        </p>
+
+        <a href="index.html" class="home-btn">
+
+            Back To Home
+
+        </a>
+
+    </div>
+
+</body>
+
+</html>

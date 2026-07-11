@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="checkout.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<section class="checkout">
+
+    <div class="checkout-container">
+
+        <!-- Left -->
+
+        <div class="checkout-left">
+
+            <h2>Delivery Details</h2>
+
+            <form id="checkoutForm">
+
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-box">
+                    <textarea placeholder="Delivery Address" required></textarea>
+                </div>
+
+                <div class="row">
+
+                    <div class="input-box">
+                        <input type="text" placeholder="City" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="Pincode" required>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <!-- Right -->
+
+        <div class="checkout-right">
+
+            <h2>Order Summary</h2>
+
+            <div class="order-items">
+
+                <!-- <div class="order-item">
+
+                    <span>Classic Burger ×2</span>
+
+                    <span>₹398</span>
+
+                </div>
+
+                <div class="order-item">
+
+                    <span>Pizza ×1</span>
+
+                    <span>₹299</span>
+
+                </div> -->
+
+            </div>
+
+            <div class="total">
+
+                <h3>Total</h3>
+
+                <h3>₹697</h3>
+
+            </div>
+
+            <h2 class="payment-title">
+                Payment Method
+            </h2>
+
+            <div class="payment-option">
+
+                <label>
+
+                    <input type="radio"
+                        name="payment"
+                        checked>
+
+                    Cash On Delivery
+
+                </label>
+
+            </div>
+
+            <div class="payment-option">
+
+                <label>
+
+                    <input type="radio"
+                        name="payment">
+
+                    UPI
+
+                </label>
+
+            </div>
+
+            <div class="payment-option">
+
+                <label>
+
+                    <input type="radio"
+                        name="payment">
+
+                    Debit / Credit Card
+
+                </label>
+
+            </div>
+
+            <button class="place-order">
+
+                Place Order
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="checkout.js"></script>
+
+</body>
+
+</html>
